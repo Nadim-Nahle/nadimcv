@@ -6,18 +6,17 @@ html{
 }
 
 header{
-    background-color: #1c51ffce;
+    background-color: #4a89dc;
     min-height: 100px;
     text-align:center;
     padding-top: 0.5%;
     padding-bottom: 1%;
 }
-
-
-footer{
-    background-color: blue;
-    min-height: 100px;
+.picture{
+    margin-bottom: 80px;
+   
 }
+
 
 .flex-container{
     display:flex;
@@ -30,16 +29,24 @@ footer{
     width: 100px;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
+    
     font-size: 30px;
     flex: 1 0 auto;
-    height:500px;
+    height:auto;
   }
   .flex-container > div.left {
       background-color: rgb(255, 16, 16);
       flex: 0 0 200px;
   }
-  .flex-container > div.right {
-    background-color: black;
-    flex: 0 0 200px;
-}
+    h4{
+        margin-top: 0px;
+        margin-bottom: 25px;
+    }
+    p{
+        font-size: 25px;
+        margin-top: -10px;
+        line-height: 80%;
+    }
+    ul{
+        font-size: 30px;
+    }
