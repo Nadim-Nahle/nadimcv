@@ -77,7 +77,7 @@ header{
             }
 
     a:link {
-            color: black;
+            color: rgb(0, 0, 0);
             background-color: transparent;
             text-decoration: none;
             }
