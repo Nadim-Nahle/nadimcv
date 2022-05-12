@@ -21,7 +21,7 @@ header{
 .flex-container{
     display:flex;
     flex-direction: row;
-    background-color: aqua;
+    background-color: 4a89dc;
     flex-wrap: wrap;
 }
 .flex-container > div {
@@ -35,18 +35,43 @@ header{
     height:auto;
   }
   .flex-container > div.left {
-      background-color: rgb(255, 16, 16);
-      flex: 0 0 200px;
+      
+      flex: 0.2 0 200px;
+      
   }
     h4{
         margin-top: 0px;
         margin-bottom: 25px;
     }
     p{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: -10px;
         line-height: 80%;
+        text-align: left;
+        padding-left: 3%;
     }
     ul{
         font-size: 30px;
     }
+    h5{
+        text-align: left;
+        padding-left: 10%;
+    }
+    h2{
+        font-size: 20px;
+        text-align: left;
+        padding-left: 3%;
+    }
+    nav{
+        padding-top: 3px;
+        padding-bottom: 20px;
+        padding-right: 25px;
+    }       
+    ul li{
+        display: inline-block;
+        padding: 5px 20px;
+    }
+    .social{
+        cursor: pointer;
+        height: 5%;
+         }
